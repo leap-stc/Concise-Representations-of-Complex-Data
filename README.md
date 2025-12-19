@@ -12,7 +12,7 @@ Surrogate and baseline pipelines for DDQ longwave radiative transfer on CKDMIP e
   - `fit_cache/` (co2/o3 fit_data, κ grids, PLS preds).  
   - `lbl_ddq/` (per‑column DDQ LBL caches), `lbl_dense/dense_lbl_cached_in_drive` (per‑column dense LBL caches stored in google drive).  
   - `pyarts-fluxes/`, `ddq-data-paper/` (supporting artifacts).
-
+- Linear Regression: Exploration and Experiment done for finding a better surrogate than Log-Poly. (Although this was not able to find an actual better surrogate, the Exploration and Experiment are insightful and encouraging.)
 ## Quick start
 ```bash
 conda env create -f environment.yml
